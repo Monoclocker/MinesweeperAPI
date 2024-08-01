@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>b1555ab9-4c35-4d90-8c7d-07f5d046aa5f</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MinesweeperAPI.BusinessLogicLayer\MinesweeperAPI.BusinessLogicLayer.csproj" />
+  </ItemGroup>
+
+</Project>
